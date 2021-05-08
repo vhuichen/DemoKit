@@ -1,0 +1,17 @@
+
+framework module ModuleFrameworkA {
+   umbrella header "ModuleFrameworkA.h"
+
+   export *
+   module * { export * }
+   
+   explicit module StudentSSS {
+       header "Student.h"
+       export *
+   }
+   
+   explicit module TeacherTTT {
+       header "Teacher.h"
+       export *
+   }
+}
