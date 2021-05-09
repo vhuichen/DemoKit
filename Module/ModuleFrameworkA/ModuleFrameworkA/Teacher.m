@@ -9,4 +9,23 @@
 
 @implementation Teacher
 
+- (void)whoIam {
+    NSLog(@"I am Teacher");
+}
+
 @end
+
+//Cannot find interface declaration for 'PersonSwift', superclass of 'PersonSwiftTeacher'
+//@interface PersonSwiftTeacher : PersonSwift
+//
+//- (void)whoIam;
+//
+//@end
+//
+//@implementation PersonSwiftTeacher
+//
+//- (void)whoIam {
+//    NSLog(@"I am PersonSwiftTeacher");
+//}
+//
+//@end

@@ -1,17 +1,25 @@
 
 framework module ModuleFrameworkA {
-   umbrella header "ModuleFrameworkA.h"
-
-   export *
-   module * { export * }
-   
-   explicit module StudentSSS {
-       header "Student.h"
-       export *
-   }
-   
-   explicit module TeacherTTT {
-       header "Teacher.h"
-       export *
-   }
+//   umbrella header "ModuleFrameworkA.h"
+//
+//   export *
+//   module * { export * }
+//
+//   explicit module StudentSSS {
+//       header "Student.h"
+//       export *
+//   }
+//
+//   explicit module TeacherTTT {
+//       header "Teacher.h"
+//       export *
+//   }
+    header "Student.h"
+    header "Teacher.h"
+//    export *
 }
+
+//module ModuleFrameworkA.Swift {
+//    header "ModuleFrameworkA-Swift.h"
+//    requires objc
+//}

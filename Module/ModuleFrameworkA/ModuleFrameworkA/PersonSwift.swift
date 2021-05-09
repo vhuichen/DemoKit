@@ -7,12 +7,40 @@
 
 import Foundation
 
-class PersonSwift {
-    func sayHello() {
-        let tea:Student = Student()
-        let stu:Teacher = Teacher()
-        
-        
-        
+@objc open class PersonSwift : NSObject {
+    @objc public var age = 0
+    
+    @objc public func sayHello() {
+        let tea:Teacher = Teacher()
+        print("sayHello")
+        tea.whoIam()
+        print("sayGoodbye")
     }
+    
+    @objc open func whoIam() {
+        print("I am PersonSwift age = \(age)")
+        let aPersonSwiftA = PersonSwiftA()
+//        let aModuleSwiftA = ModuleSwiftA()
+    }
+}
+
+private class PersonSwiftA : NSObject {
+    var age = 0
+    var astruct = StructA()
+    
+    func sayHello() {
+        let tea:Teacher = Teacher()
+        print("sayHello")
+        tea.whoIam()
+        print("sayGoodbye")
+    }
+    
+    func whoIam() {
+        print("I am PersonSwift age = \(age)")
+    }
+}
+
+fileprivate struct StructA {
+    var age = 0
+    
 }
