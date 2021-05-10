@@ -6,7 +6,8 @@
 //
 
 import Foundation
-import ModuleFrameworkA
+import ModuleFrameworkA.XXXX
+//import ModuleFrameworkA
 
 public class ModuleBSwift: NSObject {
     @objc public func moduleBSwiftSayHello() {

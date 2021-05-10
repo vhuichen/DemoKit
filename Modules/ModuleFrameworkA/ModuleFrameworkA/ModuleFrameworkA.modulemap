@@ -4,17 +4,17 @@ framework module ModuleFrameworkA {
 //
 //   export *
 //   module * { export * }
-//
-//   explicit module StudentSSS {
-//       header "Student.h"
-//       export *
-//   }
-//
+    
+   explicit module XXXX {
+       header "Student.h"
+       export *
+   }
+   
 //   explicit module TeacherTTT {
 //       header "Teacher.h"
 //       export *
 //   }
-    header "Student.h"
+//    header "Student.h"
     header "Teacher.h"
 //    export *
 }
