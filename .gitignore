@@ -9,10 +9,4 @@ DerivedData/
 *.dSYM.zip
 *.dSYM
 
-timeline.xctimeline
-playground.xcworkspace
-
 .build/
-
-
-!*.xcodeproj
