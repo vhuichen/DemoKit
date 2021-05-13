@@ -6,8 +6,8 @@
 //
 
 import Foundation
-import ModuleFrameworkA.XXXX
-//import ModuleFrameworkA
+import ModuleFrameworkA
+import SwiftModuleA
 
 public class ModuleBSwift: NSObject {
     @objc public func moduleBSwiftSayHello() {
@@ -32,6 +32,13 @@ public class ModuleBSwift: NSObject {
         
         let aModuleBPersonSwift = ModuleBPersonSwift()
         aModuleBPersonSwift.sayHello()
+        
+        let aSwiftModuleAStudent = SwiftModuleAStudent()
+        let aSwiftModuleATeacher = SwiftModuleATeacher()
+        
+        aSwiftModuleAStudent.whoAmI()
+        aSwiftModuleATeacher.whoAmI()
+        
     }
 }
 

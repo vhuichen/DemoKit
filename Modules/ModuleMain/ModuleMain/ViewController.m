@@ -31,8 +31,8 @@
     PersonSwift *aPersonSwift = PersonSwift.new;
 //    [aPersonSwift sayHello];
     [aPersonSwift whoIam];
-    ModuleBSwift *aModuleBSwift = ModuleBSwift.new;
-    [aModuleBSwift moduleBSwiftSayHello];
+//    ModuleBSwift *aModuleBSwift = ModuleBSwift.new;
+//    [aModuleBSwift moduleBSwiftSayHello];
     NSLog(@"vhuichen3");
 
 }

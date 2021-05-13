@@ -7,7 +7,6 @@
 
 #import "ModuleBOC.h"
 #import <ModuleFrameworkA/ModuleFrameworkA.h>
-//@import ModuleFrameworkA.XXXX;
 
 @implementation ModuleBOC
 
