@@ -17,7 +17,7 @@
 //    return UIApplicationMain(argc, argv, nil, appDelegateClassName);
 //}
 
-//#import <stdio.h>
+#import <stdio.h>
 //int main(int argc, char * argv[]) {
 //    static int iii = 0;
 //    static int jjj = 1;
@@ -33,5 +33,6 @@ void func(int a);
 int main() {
     int a = 100;
     func(a + global_var);
+    printf("%d + %d",a, a);
     return 0;
 }
