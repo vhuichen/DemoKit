@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EA2043226665E7F0065CF48 /* B.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA2043126665E7F0065CF48 /* B.m */; };
 		2EA257E82664C8FF00D7BC90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA257E72664C8FF00D7BC90 /* AppDelegate.m */; };
 		2EA257EB2664C8FF00D7BC90 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA257EA2664C8FF00D7BC90 /* SceneDelegate.m */; };
 		2EA257EE2664C8FF00D7BC90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA257ED2664C8FF00D7BC90 /* ViewController.m */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EA2043126665E7F0065CF48 /* B.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = B.m; sourceTree = "<group>"; };
 		2EA257E32664C8FF00D7BC90 /* MachODemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MachODemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA257E62664C8FF00D7BC90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2EA257E72664C8FF00D7BC90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				2EA257F42664C90300D7BC90 /* LaunchScreen.storyboard */,
 				2EA257F72664C90300D7BC90 /* Info.plist */,
 				2EA257F82664C90300D7BC90 /* main.m */,
+				2EA2043126665E7F0065CF48 /* B.m */,
 			);
 			path = MachODemo;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EA2043226665E7F0065CF48 /* B.m in Sources */,
 				2EA257EE2664C8FF00D7BC90 /* ViewController.m in Sources */,
 				2EA257E82664C8FF00D7BC90 /* AppDelegate.m in Sources */,
 				2EA257F92664C90300D7BC90 /* main.m in Sources */,
